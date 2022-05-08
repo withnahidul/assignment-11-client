@@ -54,7 +54,6 @@ const Blogs = () => {
         </h2>
 
         <ul className="text-left list-decimal">
-          <p className="my-4">There are 3 main services I like:</p>
           <li>
             <span className="font-bold">use nodejs:</span>
             <p>
