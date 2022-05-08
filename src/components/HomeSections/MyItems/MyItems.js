@@ -52,7 +52,7 @@ const MyItems = () => {
       ))}
       <Link to="/">
         <button className="px-5 py-2 my-2 bg-yellow-400 rounded hover:bg-yellow-500 transition hover:text-white">
-          Add My Item
+          My Item
         </button>
       </Link>
     </div>

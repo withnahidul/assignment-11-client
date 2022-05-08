@@ -3,7 +3,7 @@
     width: 350px;
     margin: 4rem auto;
     height: 600px;
-    border: 1px solid rgb(62, 62, 255);;
+    border: 1px solid rgba(59, 244, 164, 0.8);;
     border-radius: 5px;
     padding: 40px;
     box-sizing: border-box;
@@ -24,7 +24,7 @@
     margin-top: 20px;
     background: #ffffff;
     height: 40px;
-    border: 1px solid rgb(62, 62, 255);
+    border: 1px solid rgba(44, 239, 142, 0.977);
     border-radius: 10px;
     cursor: pointer;
     font-weight: 900;
