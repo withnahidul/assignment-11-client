@@ -59,7 +59,7 @@ const Register = () => {
 
                 <input onClick={() => setAgree(!agree)} type="checkbox" name="terms" id="terms" />
 
-                <label className={`p-2 ${agree ? '' : 'text-rose-600'}`} htmlFor="terms">I Accept Warehouse TechSolution Terms and Conditions</label>
+                <label className={`p-2 ${agree ? '' : 'text-rose-600'}`} htmlFor="terms">I Agree with Nis books Warehouse Terms and Conditions</label>
                 <input
                     disabled={!agree}
                     className='mx-auto bg-green-500 mt-2'
