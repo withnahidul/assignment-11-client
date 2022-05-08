@@ -14,6 +14,7 @@ import RequireAuth from './components/Login/RequireAuth/RequireAuth';
 import ManageInventory from './components/ManageInventory/ManageInventory';
 import NotFound from './components/NotFound/NotFound';
 import ProceedMyItems from './components/ProceedMyItems/ProceedMyItems';
+import Review from './components/Review/Review';
 import Selected from './components/Selected/Selected';
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
         }></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
+      <Review></Review>
       <Footer></Footer>
       <ToastContainer />
     </div>
