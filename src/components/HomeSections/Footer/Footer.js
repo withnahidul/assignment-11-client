@@ -83,7 +83,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className='text-center text-cyan-600 pt-10 sm:pt-12 font-light flex items-center justify-center'>
-                    All Rights Reserved. &copy; Rashadul Alam Rimon | 2022
+                    All Rights Reserved. &copy; Nahidul Islam | 2022
                 </div>
             </div>
         </footer>
