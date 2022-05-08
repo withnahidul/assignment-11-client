@@ -10,7 +10,7 @@
     font-family: "Raleway", sans-serif;
     /* padding: 50px; */
     font-weight: 900;
-    color: #ffffff;
+    color: #fafafa;
     text-align: center;
 }
 
@@ -28,5 +28,5 @@
 
 .header-title button:hover {
     background-color: #fff;
-    color: #2273f8;
+    color: #092653;
 }
