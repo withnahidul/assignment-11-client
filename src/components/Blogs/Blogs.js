@@ -121,23 +121,82 @@ const Blogs = () => {
               become the most popular database in the NoSQL category
             </p>
           </li>
-
         </ul>
       </div>
       <div className="shadow-xl rounded-lg border border-sky-800 px-10 py-5 my-5">
         <h2 className=" text-xl font-mono font-bold">
-          3. What other services does{" "}
-          <span className="bg-slate-200 px-1 rounded">firebase</span> provide
-          other than authentication.
+          3.Diffrence between{" "}
+          <span className="bg-slate-200 px-1 rounded">Sql</span>And NoSql
+          Database?
         </h2>
         <ul className="text-left my-5 list-decimal list-inside">
-          <span className="font-bold">It provides,</span>
-          <li>Realtime database.</li>
-          <li>Cloud storage.</li>
-          <li>Test lab.</li>
-          <li>Performance Monitoring Tools.</li>
-          <li>In-app messaging for business.</li>
+          <span className="font-bold">Sql,</span>
+          <li>
+            Structured Query language (SQL) pronounced as 'S-Q-L' or sometimes
+            as "See-Quel" is the standard language for dealing with Relational
+            Databases.
+          </li>
+          <li>
+            It can use A relational database defines relationships in the form
+            of tables.
+          </li>
+          <li>
+            SQL programming can be effectively used to insert, search, update,
+            delete database records.
+          </li>
+          <li>
+            That doesn't mean SQL cannot do things beyond that. It can do a lot
+            of things including, but not limited to, optimizing and maintenance
+            of databases.
+          </li>
+          <li>
+            Relational databases like MySQL Database, Oracle, Ms SQL Server,
+            Sybase, etc. use SQL.
+          </li>
         </ul>
+
+        <ul className="text-left my-5 list-decimal list-inside">
+          <span className="font-bold">NoSql,</span>
+          <li>
+            NoSQL is a non-relational DMS, that does not require a fixed schema,
+            avoids joins, and is easy to scale.
+          </li>
+          <li>
+            NoSQL database is used for distributed data stores with humongous
+            data storage needs.
+          </li>
+          <li>
+            NoSQL is used for Big data and real-time web apps. For example
+            companies like Twitter, Facebook, Google that collect terabytes of
+            user data every single day.
+          </li>
+          <li>
+            That doesn't mean SQL cannot do things beyond that. It can do a lot
+            of things including, but not limited to, optimizing and maintenance
+            of databases.
+          </li>
+          <li>
+            NoSQL database system encompasses a wide range of database
+            technologies that can store structured, semi-structured,
+            unstructured and polymorphic data.
+          </li>
+        </ul>
+        <h2 className=" text-xl font-mono font-bold">
+          4.what is the purpose of{" "}
+          <span className="bg-slate-200 px-1 rounded">Jwt</span>And how does It
+          works?
+        </h2>
+        <p>
+          JWT stands for JESON WEB Tockens.JWT are mainly used for
+          authentication. After a user logs in to an application, the
+          application will create a JWT and send it back to the user. Subsequent
+          requests by the user will include the JWT. The token tells the server
+          what routes, services, and resources the user is allowed to access.
+          JWTs are a good way of securely transmitting information between
+          parties because they can be signed, which means you can be sure that
+          the senders are who they say they are. Additionally, the structure of
+          a JWT allows you to verify that the content hasn't been tampered with.
+        </p>
         <a
           href="https://mongodb.com/docs/"
           className="bg-blue-400 py-2 px-4 rounded hover:bg-sky-500 transition"
