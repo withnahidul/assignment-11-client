@@ -7,10 +7,11 @@ const Banner = () => {
         <section className="mx-auto w-full">
             <div className="banner-container flex items-center justify-center">
                 <div className="header-title">
-                    <h3 className="md:text-6xl text-3xl">Warehouse TechSolution</h3>
-                    <p className="md:text-4xl text-xl">A complete technical solution</p>
+                    <h3 className="md:text-6xl text-3xl">Nis Books Warehouse</h3>
+                    <p className="md:text-4xl text-xl">"A Room without Books 
+                    is like a boady without asoul"</p>
                     <Link to="/about">
-                        <button>Explore TechSolution</button>
+                        <button>Start Here</button>
                     </Link>
                 </div>
             </div>
