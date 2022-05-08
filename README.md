@@ -2,6 +2,9 @@
 
 ## Live site Link:
 
+### Stack overflow question:
+ https://stackoverflow.com/questions/72159926/how-could-i-send-txt-user-for-new-products
+
 ### Project Description:
 
 .This Website make by React.Its a books warehouse application.

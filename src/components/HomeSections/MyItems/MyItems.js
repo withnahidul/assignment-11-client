@@ -13,7 +13,7 @@ const MyItems = () => {
     const getItemList = async () => {
       const email = user?.email;
 
-      const url = `https://guarded-caverns-20836.herokuapp.com/itemList?email=${email}`;
+      const url = `https://nis-books.herokuapp.com/itemList?email=${email}`;
       try {
         const { data } = await axios.get(url, {
           headers: {

@@ -21,7 +21,7 @@ const ProceedMyItems = () => {
       phone: event.target.phone.value,
     };
     axios
-      .post("https://guarded-caverns-20836.herokuapp.com/itemlist", items)
+      .post("https://nis-books.herokuapp.com/itemlist", items)
       .then((response) => {
         const { data } = response;
         if (data.insertedId) {

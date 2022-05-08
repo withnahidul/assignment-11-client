@@ -6,7 +6,7 @@ const ManageInventory = () => {
   const [inventories, setInventories] = useState([]);
 
   useEffect(() => {
-    fetch("https://guarded-caverns-20836.herokuapp.com/inventory")
+    fetch("https://nis-books.herokuapp.com/inventory")
       .then((res) => res.json())
       .then((data) => setInventories(data));
   }, []);
@@ -14,7 +14,7 @@ const ManageInventory = () => {
   const handleDelete = (id) => {
     const proceed = window.confirm("Are you sure?");
     if (proceed) {
-      const url = `https://guarded-caverns-20836.herokuapp.com/inventory/${id}`;
+      const url = `https://nis-books.herokuapp.com/inventory/${id}`;
       fetch(url, {
         method: "DELETE",
       })

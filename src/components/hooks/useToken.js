@@ -9,7 +9,7 @@ const useToken = (user) => {
       const email = user?.user?.email;
       if (email) {
         const { data } = await axios.post(
-          "https://guarded-caverns-20836.herokuapp.com/login",
+          "https://nis-books.herokuapp.com/login",
           { email }
         );
         setToken(data.accessToken);

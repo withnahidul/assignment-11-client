@@ -6,7 +6,7 @@ const AddInventory = () => {
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => {
     console.log(data);
-    const url = `https://guarded-caverns-20836.herokuapp.com/inventory`;
+    const url = `https://nis-books.herokuapp.com/inventory`;
     fetch(url, {
       method: "POST",
       headers: {
