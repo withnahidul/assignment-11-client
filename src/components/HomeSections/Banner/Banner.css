@@ -15,7 +15,7 @@
 }
 
 .header-title button {
-    background-color: #eba00c;
+    background-color: #68dbe8;
     font-size: 15px;
     color: #fff;
     padding: 12px 24px;
@@ -28,5 +28,5 @@
 
 .header-title button:hover {
     background-color: #fff;
-    color: #092653;
+    color: #6590cf;
 }

@@ -13,7 +13,7 @@ const MyItems = () => {
     const getItemList = async () => {
       const email = user?.email;
 
-      const url = `https://nis-books.herokuapp.com/itemList?email=${email}`;
+      const url = `https://nis-books.herokuapp.com/itemlist?email=${email}`;
       try {
         const { data } = await axios.get(url, {
           headers: {
@@ -37,12 +37,12 @@ const MyItems = () => {
       <h3>Your Items: {itemslist.length}</h3>
       {itemslist.map((items) => (
         <div key={items._id}>
-          <table className="border-2 mx-5 my-3 border-slate-600 flex flex-col items-center justify-center gap-3">
+          <table className="border-2 mx-5 my-3 border-green-600 grid items-center justify-center gap-3">
             <tr>
               <th>{items.inventory}</th>
             </tr>
             <tr>
-              <td>Selected Email: {items.email}</td>
+              <td>Email: {items.email}</td>
             </tr>
             <tr>
               <td>Address: {items.address}</td>
@@ -51,7 +51,7 @@ const MyItems = () => {
         </div>
       ))}
       <Link to="/">
-        <button className="px-5 py-2 my-2 bg-yellow-400 rounded hover:bg-yellow-500 transition hover:text-white">
+        <button className="px-5 py-2 my-2 bg-green-400 rounded hover:bg-green-500 transition hover:text-white">
           My Item
         </button>
       </Link>

@@ -38,10 +38,10 @@ const Selected = () => {
     <div className="mx-auto">
       <PageTitle title={"Update"}></PageTitle>
       <h2 className="md:text-4xl text-2xl font-bold">Update Product Page</h2>
-      <h4 className="md:text-2xl py-2 mx-auto font-semibold text-sky-600">
+      <h4 className="md:text-2xl py-2 mx-auto font-semibold text-rose-600">
         Product Name: {inventory.name}
       </h4>
-      <h4 className="md:text-xl py-2 mx-auto font-semibold text-sky-600">
+      <h4 className="md:text-xl py-2 mx-auto font-semibold text-rose-600">
         Product Id: {inventory._id}
       </h4>
 
@@ -66,13 +66,13 @@ const Selected = () => {
             <p className="text-left">
               <small>{inventory.description}</small>
             </p>
-            <button className="px-5 py-2 my-2 bg-sky-300 rounded hover:bg-sky-400 transition hover:text-white">
+            <button className="px-5 py-2 my-2 bg-sky-300 rounded hover:bg-green-400 transition hover:text-white">
               Delivered
             </button>
           </div>
 
           <div>
-            <p className="text-xl text-blue-500 font-bold">Restock Item</p>
+            <p className="text-xl text-blue-500 font-bold">Restock</p>
             <form
               className="flex flex-col items-center"
               onSubmit={handleUpdate}
@@ -121,7 +121,7 @@ const Selected = () => {
         </div>
         <Link to="/manageinventory">
           <button className="px-5 py-2 my-2 bg-yellow-400 rounded hover:bg-yellow-500 transition hover:text-white">
-            Manage Inventory
+            Manage
           </button>
         </Link>
       </div>

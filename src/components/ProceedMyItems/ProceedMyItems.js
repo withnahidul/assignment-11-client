@@ -26,7 +26,7 @@ const ProceedMyItems = () => {
         const { data } = response;
         if (data.insertedId) {
           console.log("data");
-          toast("Your Items Added");
+          toast("Items Added");
           event.target.reset();
         }
       });
@@ -39,9 +39,9 @@ const ProceedMyItems = () => {
       <h4 className="text-xl font-bold text-gray-700">
         Checking out: {inventory.name}
       </h4>
-      <form className="grid grid-cols-2 gap-4" onSubmit={handlePlaceOrder}>
+      <form className="grid grid-cols-4 gap-4" onSubmit={handlePlaceOrder}>
         <input
-          className="border-2 border-gray-500 rounded mb-2 py-3 px-5"
+          className="border-2 border-green-500 rounded mb-2 py-3 px-5"
           type="text"
           value={user?.displayName}
           name="name"
@@ -50,7 +50,7 @@ const ProceedMyItems = () => {
           disabled
         />
         <input
-          className="border-2 border-gray-500 rounded mb-2 py-3 px-5"
+          className="border-2 border-green-500 rounded mb-2 py-3 px-5"
           type="email"
           value={user?.email}
           name="email"
@@ -59,7 +59,7 @@ const ProceedMyItems = () => {
           disabled
         />
         <input
-          className="border-2 border-gray-500 rounded mb-2 py-3 px-5"
+          className="border-2 border-green-500 rounded mb-2 py-3 px-5"
           type="text"
           value={inventory.name}
           name="service"
@@ -67,14 +67,14 @@ const ProceedMyItems = () => {
           readOnly
         />
         <input
-          className="border-2 border-gray-500 rounded mb-2 py-3 px-5"
+          className="border-2 border-green-500 rounded mb-2 py-3 px-5"
           type="text"
           name="address"
           placeholder="Address"
           required
         />
         <input
-          className="border-2 border-gray-500 rounded mb-2 py-3 px-5"
+          className="border-2 border-green-500 rounded mb-2 py-3 px-5"
           type="number"
           name="phone"
           placeholder="Phone Number"
@@ -82,7 +82,7 @@ const ProceedMyItems = () => {
         />
 
         <input
-          className="px-5 py-2 my-2 bg-yellow-400 rounded hover:bg-yellow-500 transition hover:text-white"
+          className="px-5 py-2 my-2 bg-sky-400 rounded hover:bg-sky-500 transition"
           type="submit"
           value="Add Item"
         />

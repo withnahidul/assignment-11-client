@@ -196,13 +196,13 @@ const Blogs = () => {
           the senders are who they say they are. Additionally, the structure of
           a JWT allows you to verify that the content hasn't been tampered with.
         </p>
-        <a
+        {/* <a
           href="https://mongodb.com/docs/"
           className="bg-blue-400 py-2 px-4 rounded hover:bg-sky-500 transition"
           target="_blank"
         >
           Learn More
-        </a>
+        </a> */}
       </div>
     </div>
   );

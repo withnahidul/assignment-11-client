@@ -8,7 +8,7 @@ import logo from "./logo.png";
 const Header = () => {
     const [user] = useAuthState(auth);
     return (
-        <nav className='border-gray-200 px-2 sm:px-8 py-3 sticky top-0 w-full transition-all bg-white' >
+        <nav className='border-gray-200 px-2 sm:px-8 py-3 sticky top-0 w-full transition-all bg-sky-200' >
             <div className=" flex justify-between items-center">
                 <img src={logo} alt="" className="h-10" />
 
@@ -68,14 +68,14 @@ const Header = () => {
                             {user ?
                                 <div>
                                     <Link to="/login">
-                                    <button onClick={() => signOut(auth)} className="px-8 bg-green-500 rounded-lg hover:bg-yellow-500" >Logout</button>
+                                    <button onClick={() => signOut(auth)} className="px-8 rounded-lg" >Logout</button>
                                     </Link>
                                 </div>
                                 :
 
                                 <Link
                                     to="/login"
-                                    className="block px-8 bg-yellow-500 rounded-lg hover:bg-green-400 md:border-1 md:hover:text-black transition"
+                                    className="block px-8 rounded-lg md:border-1 md:hover:text-black transition"
                                 > Login </Link>
 
                             }
