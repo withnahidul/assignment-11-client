@@ -14,6 +14,7 @@ import RequireAuth from './components/Login/RequireAuth/RequireAuth';
 import ManageInventory from './components/ManageInventory/ManageInventory';
 import NotFound from './components/NotFound/NotFound';
 import ProceedMyItems from './components/ProceedMyItems/ProceedMyItems';
+import Extra from './components/Review/Extra/Extra';
 import Review from './components/Review/Review';
 import Selected from './components/Selected/Selected';
 
@@ -56,6 +57,7 @@ function App() {
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <Review></Review>
+      <Extra></Extra>
       <Footer></Footer>
       <ToastContainer />
     </div>
